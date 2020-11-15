@@ -13,7 +13,7 @@ public class Robot implements Activities {
     public boolean run (int currentDistance) {
         System.out.println("Длина забега - " + currentDistance + ". Способности робота - " + this.runDistance);
         if (this.runDistance > currentDistance){
-            System.out.println("Робот успешно пробежал");
+            System.out.println("Робот успешно пробежал ");
             return true;
         }
         else System.out.println("Робот не добежал");

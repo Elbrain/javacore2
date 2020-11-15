@@ -1,5 +1,4 @@
 package lesson1;
-
 public class Wall implements Obstacles {
     protected int height;
 

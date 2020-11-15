@@ -1,5 +1,4 @@
 package lesson1;
-
 public class Treadmill implements Obstacles {
     protected int distance;
 
