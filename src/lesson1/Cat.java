@@ -13,7 +13,7 @@ public class Cat implements Activities {
     public boolean run (int currentDistance) {
         System.out.println("Длина забега - " + currentDistance + ". Способности Кота - " + this.runDistance);
         if (this.runDistance > currentDistance){
-            System.out.println("Кот успешно пробежал");
+            System.out.println("Кот успешно пробежал ");
             return true;
         }
         else System.out.println("Кот не добежал");

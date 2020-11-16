@@ -13,7 +13,7 @@ public class Human implements Activities {
     public boolean run (int currentDistance) {
         System.out.println("Длина забега - " + currentDistance + ". Способности человека - " + this.runDistance);
         if (this.runDistance > currentDistance){
-            System.out.println("Человек успешно пробежал");
+            System.out.println("Человек успешно пробежал ");
             return true;
         }
         else System.out.println("Человек не добежал");
