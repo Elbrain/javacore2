@@ -7,7 +7,7 @@ public class PhoneBook {
 
     public void add(String surname, String number){
         phoneBook.put(surname, number);
-        System.out.println("Новая запись успешно добавлена");
+        System.out.println("Новая запись успешно добавлена ");
     }
 
     public void get(String surname){

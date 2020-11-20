@@ -17,8 +17,8 @@ public class Words {
         words.add("Синий");
         words.add("Красный");
         uniqueWords.addAll(words);
-        System.out.println("Все слова из массива - " + words);
-        System.out.println("Уникальные слова из массива - " + uniqueWords);
+        System.out.println(" Все слова из массива - " + words);
+        System.out.println(" Уникальные слова из массива - " + uniqueWords);
         System.out.println();
         for (String word : uniqueWords) {
             int howMany = 0;
